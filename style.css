@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+       width: 100%;
+       height: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border: 2px solid rgb(22, 20, 20);
+       background-color: white;
+}
+.left{
+    background-image: url(imgform4.jpg);
+    width: 50%;
+    height: 100vh;
+}
+.p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+button{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    text-align: center;
+    width: 90px;
+}
+.button{
+    display: flex;
+    float: right;
+}
+.button2{
+    background-color: white;
+    color: grey;
+    border: 1px solid rgb(99, 160, 30);
+}
+.right{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.right .formulaires{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 2rem;
+}
+
+.mode1{
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+.formulaires .formulaire1{
+    display: flex;
+   flex-direction: column; 
+   /* gap: 10px; */
+   width: 50%;
+}
+.formulaires .formulaire2{
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    width: 50%;
+    margin-top: 5px;
+}
+.div1{
+    border: none;
+    border-bottom: 2px solid green;
+    background-color: aqua;
+}
+.sousright input{
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.sousright{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.div6{
+    border-bottom: 2px solid green;
+    width: 45%;
+    margin-top: 50px;
+}
+.div7{
+    float: right;
+    background-color: forestgreen;
+    padding: 8px;
+}
